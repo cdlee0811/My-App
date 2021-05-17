@@ -2,7 +2,7 @@
 
 
 # Description of problem solved
-Create an Android application that displays information received over the network. I was provided the API(https://guidebook.com/service/v2/upcomingGuides/) and had to display the information into a Recyclerview. I went with a few of the most commonly used libraries for this sort of task. Seeing as though this was not a large set of data to parse through I did not go with coroutines. The easiest approach for displaying content is MVVM, that way I can observe any changes to the API without a lot of code. 
+Create an Android application that displays information received over the network. I was provided an API and had to display the information into a Recyclerview. I went with a few of the most commonly used libraries for this sort of task. Seeing as though this was not a large set of data to parse through I did not go with coroutines. The easiest approach for displaying content is MVVM, that way I can observe any changes to the API without a lot of code. 
 
 # Libraries used
 - Retrofit, Glide and GSON
